@@ -11,8 +11,8 @@ data.map(ele=>{
     return(
 <div class="card">
     <img src= {ele.image}/>
-<div>{ele.name}
-</div>
+<div> {ele.name}
+</div> 
 </div>
       
   
