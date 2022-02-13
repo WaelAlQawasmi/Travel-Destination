@@ -1,0 +1,16 @@
+#root{
+
+    display: grid;
+    min-height: 100vh;
+    grid-gap: 0px;
+    grid-auto-rows: minmax(auto,auto);
+    /* justify-items: center; */
+    align-items:top;
+    grid-template-areas: 
+    "heder heder heder heder"
+    "tours tours tours tours"
+    "tours tours tours tours"
+
+   
+    "footer footer footer footer";
+}
