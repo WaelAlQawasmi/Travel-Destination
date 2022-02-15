@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import './Tour.css';
 import { useState } from "react";
 export default function Tour(props) {
     let { tour } = useParams(); 
@@ -7,9 +8,10 @@ console.log(info)
     return (
       
    
-        <div class="tours">
+        <div class="tour">
          
-<h1>ki. {info[0].info}</h1>
+         <img src={info[0].image}/>
+<h1>ki. {info[0].name}</h1>
         </div>
     );
 }
