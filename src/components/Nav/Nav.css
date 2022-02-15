@@ -1,0 +1,8 @@
+nav{
+    position: fixed;
+    background-color: #b8405e94;
+    grid-area: heder;
+    
+    width: 100%;
+    text-align: center;
+}
