@@ -1,0 +1,12 @@
+.tour{
+    background-attachment: fixed;
+    background-position: center;
+    grid-area: tours;
+    display: grid;
+    grid-template-columns: 100% ;
+    justify-items: center;
+    align-items: center;
+}
+img{
+    display: block;
+}

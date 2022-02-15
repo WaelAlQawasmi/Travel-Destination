@@ -1,28 +1,34 @@
-import data from "../../data/db.json"
+
 import './Tours.css'
+import { Link } from "react-router-dom";
 
-function Tours(){
-    return( 
-  
-   <div class="tours">
-       {
-           
-data.map(ele=>{
-    return(
-<div class="card">
-    <img src= {ele.image}/>
-<div> {ele.name}
-</div> 
-</div>
-      
-  
-    );
-    
-}
 
-)
 
-       } 
+function Tours(prop) {
+    return (
+
+        <div class="tours">
+            {
+
+                prop.data.map(ele => {
+                   let url= "Tour/"+ele.id;
+                    return (
+                       <div class="card">
+                            
+                            <img src={ele.image} />
+                            <div >  <Link to={url} >  {ele.name}
+                            </Link>
+                            </div>
+                        </div>
+                      
+
+                    );
+
+                }
+
+                )
+
+            }
 
         </div>
     );
