@@ -11,7 +11,7 @@ function Home(prop) {
     <>
 
       <Header />
-      <Tours data={prop.deta}  setInfo={prop.setInfo} />    
+      <Tours data={prop.deta}  />    
       <Footer />
     </>
 

@@ -16,7 +16,7 @@ function Tours(prop) {
                        <div class="card">
                             
                             <img src={ele.image} />
-                            <div onClick={prop.setInfo(ele.info)}>  <Link to={url} >  {ele.name}
+                            <div >  <Link to={url} >  {ele.name}
                             </Link>
                             </div>
                         </div>

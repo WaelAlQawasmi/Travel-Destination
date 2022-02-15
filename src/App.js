@@ -11,20 +11,13 @@ import React, { useState } from 'react';
 function App() {
 
   
-  const [info, setInfo]= useState("");
 
-  // when the user click on the buuton I want to change the state from false to true 
-  const tourHandel = (infor) =>{
-
-   setInfo(infor) // inside the pracketes I will add the new state value 
-   
-}
   return (
     <>
 
       <Routes>
-<Route path='/Tour/:tour' element={<Tour info={info} setInfo={setInfo} />}/>
-        <Route path='/' element={<Home deta={data}  setInfo={setInfo}/>} />
+<Route path='/Tour/:tour' element={<Tour deta={data}  />}/>
+        <Route path='/' element={<Home deta={data} />} />
       </Routes>
 
    
