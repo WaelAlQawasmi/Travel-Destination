@@ -1,12 +1,20 @@
-import './Header.css'
-function Header(){
-    return(
-   
-       
-        <h1 class="header">header</h1>
+
+ import Nav from '../Nav/Nav'
+
+
+function Header() {
+    return (
+        
+        
+        <Nav /> 
+              
+          
+      
   
-       
-     
+
+
+
+
     );
 }
 export default Header;

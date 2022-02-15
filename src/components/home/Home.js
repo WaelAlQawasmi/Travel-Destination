@@ -3,15 +3,18 @@ import './Home.css';
 import Header from "../header/Header"
 import Footer from "../footer/Footer"
 import Tours from "../tours/Tours"
-function Home() {
+
+function Home(prop) {
+
   return (
+
     <>
-   
-     <Header />
-     <Tours/>
-     <Footer />
+
+      <Header />
+      <Tours data={prop.deta}  setInfo={prop.setInfo} />    
+      <Footer />
     </>
-  
+
   );
 }
 
